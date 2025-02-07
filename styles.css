@@ -1,80 +1,95 @@
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
-/* Container styles */
-.container {
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    background-color: white;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Header styles */
 header h1 {
-    font-size: 2.5rem;
-    color: #0073e6;
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 
-header p {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 30px;
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
 }
 
-/* Button container styles */
-.button-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-/* Button styles */
-.button {
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 1.2rem;
+header nav ul li a {
     text-decoration: none;
     color: white;
-    background-color: #0073e6;
-    border-radius: 6px;
-    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.category h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    text-align: center;
 }
 
 .button:hover {
-    background-color: #005bb5;
-    transform: scale(1.05);
+    background-color: #218838;
 }
 
-.button:active {
-    background-color: #003d80;
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    .button-container {
-        width: 100%;
-        padding: 0 20px;
-    }
-
-    .button {
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
-}
