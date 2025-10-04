@@ -25,13 +25,14 @@ body {
 
 /* === CABEÇALHO === */
 header {
-    background: #000;
+    background: rgba(0, 0, 0, 0.9);
     padding: 20px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 100;
     border-bottom: 1px solid #111;
+    backdrop-filter: blur(8px);
 }
 
 header .container {
@@ -65,10 +66,24 @@ nav a:hover {
     color: #f4c2c2;
 }
 
+/* === SEÇÕES GERAIS === */
+section {
+    padding: 80px 0;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* === SEÇÃO INTRO === */
 #intro {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #000), url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1920&q=80') no-repeat center/cover;
-    color: #fff;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #000),
+                url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1920&q=80') no-repeat center/cover;
     text-align: center;
     padding: 180px 20px 120px;
     margin-top: 80px;
@@ -81,11 +96,25 @@ nav a:hover {
     font-weight: 300;
 }
 
-/* === SEÇÕES PADRÃO === */
-section {
-    padding: 80px 0;
+/* === SEÇÃO PROJETOS === */
+#projetos {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95)),
+                url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&q=80') no-repeat center/cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
+/* === SEÇÃO LINKS === */
+#links {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95)),
+                url('https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=1920&q=80') no-repeat center/cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* === TÍTULOS === */
 h2 {
     text-align: center;
     font-size: 2rem;
@@ -111,30 +140,31 @@ h3 {
 .button {
     display: inline-block;
     padding: 12px 20px;
-    background: transparent;
+    background: rgba(255, 255, 255, 0.05);
     border: 1px solid #fff;
     color: #fff;
     border-radius: 4px;
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 0.95rem;
+    backdrop-filter: blur(3px);
 }
 
 .button:hover {
     background: #fff;
     color: #000;
+    transform: scale(1.05);
 }
 
 .button i {
     margin-right: 8px;
 }
 
-/* === SEÇÃO PROJETOS === */
+/* === SEÇÃO PROJETOS E LINKS === */
 #projetos .category {
     margin-bottom: 60px;
 }
 
-/* === SEÇÃO LINKS === */
 #links .buttons {
     justify-content: center;
 }
@@ -168,5 +198,17 @@ footer {
 
     h2 {
         font-size: 1.6rem;
+    }
+}
+
+/* === ANIMAÇÃO SCROLL FADE-IN === */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
