@@ -134,19 +134,21 @@
             <p>&copy; 2025 Pedro Correia Lopes. Todos os direitos reservados.</p>
         </div>
     </footer>
+<script>
+    const sections = document.querySelectorAll("section");
+
+    function revealOnScroll() {
+        sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop < window.innerHeight - 100) {
+                section.classList.add("show");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll();
+</script>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
