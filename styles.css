@@ -215,7 +215,18 @@ footer {
         width: 80%;
         text-align: center;
     }
-
+    .button2 {
+        display: inline-block;
+        padding: 12px 20px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid #fff;
+        color: #fff;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-size: 0.95rem;
+        backdrop-filter: blur(3px);
+    }
 
     h2 {
         font-size: 1.6rem;
@@ -233,4 +244,5 @@ footer {
         transform: translateY(0);
     }
 }
+
 
