@@ -216,6 +216,12 @@ footer {
         text-align: center;
     }
 
+ .button2 {
+        width: 80%;
+        text-align: center;
+	display: inline-block;
+    }
+
     h2 {
         font-size: 1.6rem;
     }
