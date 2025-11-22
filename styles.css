@@ -154,9 +154,9 @@ h3 {
 
 .button2 {
     display: flex;
-    padding: 27px 9px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px rgba(255, 255, 255, 0.05);
+    padding: 21px 3px;
+    background: transparent;
+    border: 1px transparent;
     color: #fff;
     border-radius: 50px;
     text-decoration: none;
@@ -226,9 +226,9 @@ footer {
     }
     .button2 {
         text-align: center;
-        padding: 27px 9px;
-        background: rgba(255, 255, 255, 0.05);
-        border: 1px rgba(255, 255, 255 0.05);
+        padding: 21px 3px;
+        background: transparent;
+        border: 1px transparent;
         color: #fff;
         border-radius: 50%;
         text-decoration: none;
