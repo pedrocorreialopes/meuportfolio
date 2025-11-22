@@ -155,7 +155,7 @@ h3 {
     display: flex;
     padding: 12px 20px;
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid #fff;
+    border: transparent;
     color: #fff;
     border-radius: 100%;
     text-decoration: none;
@@ -183,7 +183,6 @@ h3 {
 
 .button2 i {
     margin-right: 1px;
-    border: transparent;
 }
 
 
