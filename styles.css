@@ -137,7 +137,8 @@ h3 {
     gap: 15px;
     border-radius:10px;	
 }
-
+
+
 .button {
     display: flex;
     padding: 12px 20px;
@@ -172,9 +173,11 @@ h3 {
 
 .button2:hover {
     background: #fff;
-    color: #000;
+    color: #000;
+
 }
-
+
+
 
 .button i {
     margin-right: 8px;
@@ -216,7 +219,8 @@ footer {
         align-items: center;
     }
 
-   .button {
+
+   .button {
         width: 80%;
         text-align: center;
     }
