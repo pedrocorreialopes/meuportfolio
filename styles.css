@@ -230,6 +230,13 @@ footer {
         font-size: 0.95rem;
         backdrop-filter: blur(3px);
     }
+    .button i {
+        margin-right: 8px;
+    }
+
+    .button2 i {
+    margin-right: 1px;
+    }
 
     h2 {
         font-size: 1.6rem;
