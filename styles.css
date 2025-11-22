@@ -1,4 +1,4 @@
-/* === RESET GERAL === */
+um/* === RESET GERAL === */
 * {
     margin: 0;
     padding: 0;
@@ -169,11 +169,7 @@ h3 {
     color: #000;
     transform: scale(1.05);
 }
-
-.button2:hover {
-    background: #fff;
-    color: #000;
-}
+
 
 .button i {
     margin-right: 8px;
