@@ -222,7 +222,6 @@ footer {
     }
     .button2 {
         text-align: center;
-        flex-direction: row;
         padding: 6px 10px;
         background: rgba(255, 255, 255, 0.05);
         border: 1px rgba(255, 255, 255 0.05);
