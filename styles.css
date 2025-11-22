@@ -138,12 +138,6 @@ h3 {
     border-radius:10px;	
 }
 
-.buttons2 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    border-radius:10px;        
-}
 
 .button {
     display: flex;
@@ -218,11 +212,8 @@ footer {
         gap: 10px;
     }
 
-    .buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-   .buttons2 {
+    
+   .buttons {
         flex-direction: row;
         align-items: center;
     }
