@@ -212,14 +212,12 @@ footer {
         gap: 10px;
     }
 
-    
    .buttons {
         flex-direction: row;
         align-items: center;
     }
 
-
-    .button {
+   .button {
         width: 80%;
         text-align: center;
     }
