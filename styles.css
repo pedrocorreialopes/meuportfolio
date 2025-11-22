@@ -153,7 +153,7 @@ h3 {
 
 .button2 {
     display: flex;
-    padding: 6px 10px;
+    padding: 12px 20px;
     background: rgba(255, 255, 255, 0.05);
     border: 1px rgba(255, 255, 255, 0.05);
     color: #fff;
@@ -217,7 +217,7 @@ footer {
     }
     .button2 {
         text-align: center;
-        padding: 6px 10px;
+        padding: 12px 20px;
         background: rgba(255, 255, 255, 0.05);
         border: 1px rgba(255, 255, 255 0.05);
         color: #fff;
