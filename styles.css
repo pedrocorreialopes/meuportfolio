@@ -180,6 +180,11 @@ h3 {
     margin-right: 8px;
 }
 
+.button2 i {
+    margin-right: 1px;
+}
+
+
 /* === SEÇÃO PROJETOS E LINKS === */
 #projetos .category {
     margin-bottom: 60px;
