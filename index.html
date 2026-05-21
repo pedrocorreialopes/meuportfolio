@@ -1,21 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Pedro Correia Lopes</title>
-    <link rel="stylesheet" href="styles.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+    <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
+   
 </head>
-<body>
+<body data-template-id="__page-root" style="background: rgb(26, 26, 46);">
+
     <header>
         <div class="container">
-            <h1>Portfólio de Pedro Correia Lopes Filho</h1>
+            <h1 data-template-id="site-title" class="canva-text" style="color: rgb(233, 69, 96); font-weight: 700; font-style: normal; font-size: 24px;">
+                Portfólio de Pedro Correia Lopes Filho
+            </h1>
             <nav>
                 <ul>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#links">Links Externos</a></li>
+                    <li>
+                        <a href="#projetos" data-template-id="nav-projetos" class="canva-link" style="color: rgb(224, 224, 224); font-weight: 400; font-style: normal; font-size: 16px;">
+                            Projetos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#links" data-template-id="nav-links" class="canva-link" style="color: rgb(224, 224, 224); font-weight: 400; font-style: normal; font-size: 16px;">
+                            Links Externos
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -23,158 +39,180 @@
 
     <section id="intro">
         <div class="container">
-            <p class="intro-text">Bem-vindo ao meu portfólio! Aqui você encontrará uma coleção dos meus projetos de desenvolvimento web, abrangendo diversas áreas como plataformas educacionais, portfólios, jogos e ferramentas diversas.</p>
+            <p class="intro-text" data-template-id="intro-text" style="color: rgb(201, 209, 217); font-weight: 400; font-style: normal; font-size: 17px;">
+                Bem-vindo ao meu portfólio! Aqui você encontrará uma coleção dos meus projetos de desenvolvimento web, abrangendo diversas áreas como plataformas educacionais, portfólios, jogos e ferramentas diversas.
+            </p>
         </div>
     </section>
 
     <section id="projetos">
         <div class="container">
-            <h2>Meus Projetos</h2>
+            <h2 data-template-id="projects-heading" class="canva-text" style="color: rgb(233, 69, 96); font-weight: 700; font-style: normal; font-size: 32px;">
+                Meus Projetos
+            </h2>
+
             <div class="category">
-                <h3>Plataformas Educacionais</h3>
+                <h3 data-template-id="cat-educational" class="canva-text" style="color: rgb(168, 218, 220); font-weight: 600; font-style: normal; font-size: 22px;">
+                    Plataformas Educacionais
+                </h3>
                 <div class="buttons">
-                    <a href="https://pedrocorreialopes.github.io/plataforma_de_cursos" class="button" target="_blank"><i class="fas fa-graduation-cap"></i>Plataforma de Cursos</a>
-					<a href="https://pedrocorreialopes.github.io/cursos-on-line" class="button" target="_blank"><i class="fas fa-graduation-cap"></i>Cursos On Line</a>
-					<a href="https://pedrocorreialopes.github.io/preparatorio-concurso" class="button" target="_blank"><i class="fas fa-chalkboard-teacher"></i>Preparatório para Concursos</a>
-                    <a href="https://pedrocorreialopes.github.io/cursosidosos" class="button" target="_blank"><i class="fas fa-chalkboard-teacher"></i>Cursos para Idosos</a>
-                    <a href="https://pedrocorreialopes.github.io/cursoparaidosos" class="button" target="_blank"><i class="fas fa-universal-access"></i>Site para Idosos</a>
-					<a href="https://pedrocorreialopes.github.io/aprenda-portugues" class="button" target="_blank"><i class="fas fa-universal-access"></i>Aprenda português</a>
-					<a href="https://pedrocorreialopes.github.io/civilizacoes-antigas" class="button" target="_blank"><i class="fas fa-universal-access"></i>Civilizações Antigas</a>
+                    <a href="https://pedrocorreialopes.github.io/plataforma_de_cursos" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i>Plataforma de Cursos</a>
+                    <a href="https://pedrocorreialopes.github.io/cursos-on-line" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i>Cursos On Line</a>
+                    <a href="https://pedrocorreialopes.github.io/preparatorio-concurso" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-chalkboard-teacher"></i>Preparatório para Concursos</a>
+                    <a href="https://pedrocorreialopes.github.io/cursosidosos" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-chalkboard-teacher"></i>Cursos para Idosos</a>
+                    <a href="https://pedrocorreialopes.github.io/cursoparaidosos" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-universal-access"></i>Site para Idosos</a>
+                    <a href="https://pedrocorreialopes.github.io/aprenda-portugues" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-universal-access"></i>Aprenda português</a>
+                    <a href="https://pedrocorreialopes.github.io/civilizacoes-antigas" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-universal-access"></i>Civilizações Antigas</a>
                 </div>
             </div>
+
             <div class="category">
-                <h3>Portfólios</h3>
+                <h3 data-template-id="cat-portfolios" class="canva-text" style="color: rgb(168, 218, 220); font-weight: 600; font-style: normal; font-size: 22px;">
+                    Portfólios
+                </h3>
                 <div class="buttons">
-                    <a href="https://pedrocorreialopes.github.io/portifoliomoderno" class="button" target="_blank"><i class="fas fa-address-card"></i>Portfólio Moderno</a>
-                    <a href="https://pedrocorreialopes.github.io/novo-portifolio" class="button" target="_blank"><i class="fas fa-address-card"></i>Novo Portifólio</a>
-                    <a href="https://pedro-correia-web-developer-portf-7306d8df.base44.app/" class="button" target="_blank"><i class="fas fa-address-card"></i>Portfólio2 Base44</a>
-                    <a href="https://vibrant-venture-folio.lovable.app" class="button" target="_blank"><i class="fas fa-address-card"></i>Portfólio Lovable</a>
-                    <a href="https://pedro-builder-studio.lovable.app/" class="button" target="_blank"><i class="fas fa-address-card"></i>Portfólio2 Lovable</a>
-                    <a href="https://receitasdopedro.my.canva.site/pedro-correia" class="button" target="_blank"><i class="fas fa-receipt"></i>Portfolio Canva</a>
-					<a href="https://lincvzfq.gensparkspace.com/" class="button" target="_blank"><i class="fas fa-receipt"></i>Portfolio Diferenciado</a>
+                    <a href="https://pedrocorreialopes.github.io/portifoliomoderno" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-address-card"></i>Portfólio Moderno</a>
+                    <a href="https://pedrocorreialopes.github.io/novo-portifolio" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-address-card"></i>Novo Portifólio</a>
+                    <a href="https://pedro-correia-web-developer-portf-7306d8df.base44.app/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-address-card"></i>Portfólio2 Base44</a>
+                    <a href="https://vibrant-venture-folio.lovable.app" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-address-card"></i>Portfólio Lovable</a>
+                    <a href="https://pedro-builder-studio.lovable.app/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-address-card"></i>Portfólio2 Lovable</a>
+                    <a href="https://receitasdopedro.my.canva.site/pedro-correia" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-receipt"></i>Portfolio Canva</a>
+                    <a href="https://lincvzfq.gensparkspace.com/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-receipt"></i>Portfolio Diferenciado</a>
                 </div>
             </div>
-	    <div class="category">
-                <h3>Sites</h3>
-                <div class="buttons">
-                    <a href="https://glipearte-festa-facil-c648dfdd.base44.app/Home" class="button" target="_blank"><i class="fas fa-paint-brush"></i>GlipeArte</a>
-					<a href="https://glipearte.github.io/site7" class="button" target="_blank"><i class="fas fa-paint-brush"></i>Glipearte2</a>
-					<a href="https://pedrocorreialopes.github.io/albumdefotos" class="button" target="_blank"><i class="fas fa-paint-brush"></i>Album de Fotos </a>	
-			        <a href="https://pedrocorreialopes.github.io/galeria-fotos" class="button" target="_blank"><i class="fas fa-paint-brush"></i>Album de Fotos 2</a>
-					<a href="https://pedrocorreialopes.github.io/loja_virtual_digital" class="button" target="_blank"><i class="fas fa-paint-brush"></i>Loja Virtual</a>
-		            <a href="https://sabor-nordestino-cf21efcf.base44.app/" class="button" target="_blank"><i class="fas fa-cookie-bite"></i>Sabor Nordestino</a>
-		            <a href="https://nordeste-magico-sabor.lovable.app" class="button" target="_blank"><i class="fas fa-cookie-bite"></i>Nordeste Mágico Sabor</a>
-					<a href="https://pedrocorreialopes.github.io/comunidadeyeshua" class="button" target="_blank"><i class="fas fa-church"></i>Comunidade Yeshua 2</a>
-					<a href="https://pedrocorreialopes.github.io/comunidadeyeshua2" class="button" target="_blank"><i class="fas fa-church"></i>Comunidade Yeshua</a>
-		            <a href="https://comunidade-yeshua-site.lovable.app" class="button" target="_blank"><i class="fas fa-church"></i>Yeshua2</a>
-			        <a href="https://pedrocorreialopes.github.io/kitsnatalinos" class="button" target="_blank"><i class="fas fa-church"></i>Landpage de Natal Glipearte</a>
-					<a href="https://pedrocorreialopes.github.io/estudio_fotografico" class="button" target="_blank"><i class="fas fa-camera"></i>Estudio Fotográfico</a>
-					<a href="https://pedrocorreialopes.github.io/mundo-magico" class="button" target="_blank"><i class="fa-solid fa-ice-cream"></i>Mundo Mágico</a>
-					<a href="https://pedrocorreialopes.github.io/mundo-magico-kids" class="button" target="_blank"><i class="fa-solid fa-ice-cream"></i>Mundo Mágico Kids</a>
-					<a href="https://pedrocorreialopes.github.io/musica-viva" class="button" target="_blank"><i class="fas fa-music"></i>Música Viva</a>
-					<a href="https://pedrocorreialopes.github.io/harmonia" class="button" target="_blank"><i class="fas fa-music"></i>Harmonia</a>
-		            <a href="https://pedrocorreialopes.github.io/yeshua" class="button" target="_blank"><i class="fas fa-church"></i>Yeshua</a>
-					<a href="https://pedrocorreialopes.github.io/nextec" class="button" target="_blank"><i class="fas fa-chalkboard-teacher"></i>Nextec</a>
-                </div>
-            </div>
+
             <div class="category">
-                <h3>Jogos</h3>
+                <h3 data-template-id="cat-sites" class="canva-text" style="color: rgb(168, 218, 220); font-weight: 600; font-style: normal; font-size: 22px;">
+                    Sites
+                </h3>
                 <div class="buttons">
-                    <a href="https://pedrocorreialopes.github.io/jogodeadivinhacao/" class="button" target="_blank"><i class="fas fa-question-circle"></i>Jogo de Adivinhação</a>
-                    <a href="https://pedrocorreialopes.github.io/pedrapapeltesoura/" class="button" target="_blank"><i class="fas fa-hand-rock"></i>Jogo Pedra Papel Tesoura</a>
-                    <a href="https://pedrocorreialopes.github.io/jogodavelha/" class="button" target="_blank"><i class="fas fa-circle-xmark"></i>Jogo da Velha</a>
-                    <a href="https://pedrocorreialopes.github.io/bingo/" class="button" target="_blank"><i class="fas fa-globe"></i>Bingo</a>
-                    <a href="https://pedrocorreialopes.github.io/sorteio/" class="button" target="_blank"><i class="fas fa-comment-dollar">‌</i>Sorteio</a>
-                    <a href="https://pedrocorreialopes.github.io/formacaodeequipes/" class="button" target="_blank"><i class="fas fa-users">‌</i>Formação de Equipes</a>
-                    <a href="https://pedrocorreialopes.github.io/jogodaprenda/" class="button" target="_blank"><i class="fas fa-hand-point-right">‌</i>Jogo da Prenda</a>
-                    <a href="https://pedrocorreialopes.github.io/desafioportugues/" class="button" target="_blank"><i class="fas fa-language"></i>Desafio de Português</a>
-                    <a href="https://pedrocorreialopes.github.io/jogoforca/" class="button" target="_blank"><i class="fas fa-gavel"></i>Jogo da Forca</a>
-                    <a href="https://pedrocorreialopes.github.io/pixeldash/" class="button" target="_blank"><i class="fas fa-square"></i>Pixel Dash</a>
-                    <a href="https://pedrocorreialopes.github.io/xadrez/" class="button" target="_blank"><i class="fas fa-chess"></i>Xadrez</a>
-                    <a href="https://pedrocorreialopes.github.io/sudoku/" class="button" target="_blank"><i class="fas fa-table-cells"></i>Sodoku</a>
-					<a href="https://pedrocorreialopes.github.io/jogosclassicos/" class="button" target="_blank"><i class="fas fa-table-cells"></i>Jogos Clássicos</a>
-                    <a href="https://pedrocorreialopes.github.io/trilha/" class="button" target="_blank"><i class="fas fa-campground"></i>Jogo de Trilha</a>
-                    <a href="https://pedrocorreialopes.github.io/corridadecarros/" class="button" target="_blank"><i class="fas fa-car"></i>Corrida de Carros</a>
-                    <a href="https://pedrocorreialopes.github.io/cobrinha/" class="button" target="_blank"><i class="fas fa-angles-right"></i>Jogo da Cobrinha</a>
-                    <a href="https://pedrocorreialopes.github.io/penalties/" class="button" target="_blank"><i class="fas fa-futbol"></i>Penalidades</a>
-                    <a href="https://pedrocorreialopes.github.io/jogomemoria/" class="button" target="_blank"><i class="fas fa-brain"></i>Jogo da Memória</a>
-                    <a href="https://pedrocorreialopes.github.io/quiz/" class="button" target="_blank"><i class="fas fa-question"></i>Quiz</a>
-                    <a href="https://pedrocorreialopes.github.io/jogosdevocabulario/" class="button" target="_blank"><i class="fas fa-language"></i>Jogos de Vocabulário</a>
-                    <a href="https://pedrocorreialopes.github.io/jogodosanimais/" class="button" target="_blank"><i class="fas fa-cat"></i>Jogo dos Animais</a>
-                    <a href="https://pedrocorreialopes.github.io/jogodedamas/" class="button" target="_blank"><i class="fas fa-hockey-puck">‌</i>Jogo de Damas</a>
-                    <a href="https://pedrocorreialopes.github.io/tetris/" class="button" target="_blank"><i class="fas fa-square"></i>Tetris</a>
-                    <a href="https://pedrocorreialopes.github.io/paciencia/" class="button" target="_blank"><i class="fas fa-clone"></i>Paciência</a>
-                    <a href="https://pedrocorreialopes.github.io/quebranumeros/" class="button" target="_blank"><i class="fas fa-clone"></i>Quebra Cabeças de Números</a>
-                    <a href="https://pedrocorreialopes.github.io/desafiodematematica/" class="button" target="_blank"><i class="fas fa-brain"></i>Desafio Matemático</a>
-                    <a href="https://pedrocorreialopes.github.io/desafiodeportugueses/" class="button" target="_blank"><i class="fas fa-brain"></i>Desafio de Português</a>
-                    <a href="https://pedrocorreialopes.github.io/viracartas/" class="button" target="_blank"><i class="fas fa-clone"></i>Vira Cartas</a> 
-                   </div>
+                    <a href="https://glipearte-festa-facil-c648dfdd.base44.app/Home" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-paint-brush"></i>GlipeArte</a>
+                    <a href="https://glipearte.github.io/site7" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-paint-brush"></i>Glipearte2</a>
+                    <a href="https://pedrocorreialopes.github.io/albumdefotos" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-paint-brush"></i>Album de Fotos</a>
+                    <a href="https://pedrocorreialopes.github.io/galeria-fotos" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-paint-brush"></i>Album de Fotos 2</a>
+                    <a href="https://pedrocorreialopes.github.io/loja_virtual_digital" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-paint-brush"></i>Loja Virtual</a>
+                    <a href="https://sabor-nordestino-cf21efcf.base44.app/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-cookie-bite"></i>Sabor Nordestino</a>
+                    <a href="https://nordeste-magico-sabor.lovable.app" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-cookie-bite"></i>Nordeste Mágico Sabor</a>
+                    <a href="https://pedrocorreialopes.github.io/comunidadeyeshua" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-church"></i>Comunidade Yeshua 2</a>
+                    <a href="https://pedrocorreialopes.github.io/comunidadeyeshua2" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-church"></i>Comunidade Yeshua</a>
+                    <a href="https://comunidade-yeshua-site.lovable.app" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-church"></i>Yeshua2</a>
+                    <a href="https://pedrocorreialopes.github.io/kitsnatalinos" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-church"></i>Landpage de Natal Glipearte</a>
+                    <a href="https://pedrocorreialopes.github.io/estudio_fotografico" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-camera"></i>Estudio Fotográfico</a>
+                    <a href="https://pedrocorreialopes.github.io/mundo-magico" class="button" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-ice-cream"></i>Mundo Mágico</a>
+                    <a href="https://pedrocorreialopes.github.io/mundo-magico-kids" class="button" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-ice-cream"></i>Mundo Mágico Kids</a>
+                    <a href="https://pedrocorreialopes.github.io/musica-viva" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-music"></i>Música Viva</a>
+                    <a href="https://pedrocorreialopes.github.io/harmonia" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-music"></i>Harmonia</a>
+                    <a href="https://pedrocorreialopes.github.io/yeshua" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-church"></i>Yeshua</a>
+                    <a href="https://pedrocorreialopes.github.io/nextec" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-chalkboard-teacher"></i>Nextec</a>
                 </div>
-              <div class="category">
-                <h3>Utilitários</h3>
-                <div class="buttons">
-                    <a href="https://pedrocorreialopes.github.io/calendario/" class="button" target="_blank"><i class="fas fa-calendar"></i>Calendário</a>
-                    <a href="https://pedrocorreialopes.github.io/listadeicones/" class="button" target="_blank"><i class="fas fa-list"></i>Lista de Ícones</a>
-					<a href="https://pedrocorreialopes.github.io/icones-font-awesome" class="button" target="_blank"><i class="fas fa-list" aria-hidden="true"></i>Lista de Ícones Font Awesome</a>
-                    <a href="https://pedrocorreialopes.github.io/geradordelinks/" class="button" target="_blank"><i class="fas fa-list"></i>Gerador de Links</a>
-                    <a href="https://pedrocorreialopes.github.io/calculodv" class="button" target="_blank"><i class="fas fa-calculator"></i>Cálculo DV</a>
-                    <a href="https://wanderlust-ai-0ff2a0a6.base44.app/Home" class="button" target="_blank"><i class="fas fa-globe"></i>Gerador de Roteiro de Viagem</a>
-                    <a href="https://viaje-ai-36c5fc7f.base44.app/Home" class="button" target="_blank"><i class="fas fa-globe"></i>Gerador de Roteiro de Viagem2</a>
-                    <a href="https://guia-global-correios-b0459b6e.base44.app/" class="button" target="_blank"><i class="fas fa-earth"></i>Restrições Países</a>
-					<a href="https://irkcejcw.gensparkspace.com/" class="button" target="_blank"><i class="fas fa-earth"></i>Consulta de Código NCM</a>
-		            <a href="https://receitasdopedro.my.canva.site/contador-regressivo-para-eventos" class="button" target="_blank"><i class="fas fa-hourglass"></i>Contador Regressivo para Eventos (Canva)</a>
-                    <a href="https://pedrocorreialopes.github.io/digicpf" class="button" target="_blank"><i class="fas fa-id-card"></i>DigiCPF</a>
-                    <a href="https://pedrocorreialopes.github.io/ascii/" class="button" target="_blank"><i class="fas fa-list"></i>Tabela ASC-II</a>
-                    <a href="https://pedrocorreialopes.github.io/calculadoracientifica" class="button" target="_blank"><i class="fas fa-calculator"></i>Calculadora Científica</a>
-					<a href="https://pedrocorreialopes.github.io/calculadora-financeira" class="button" target="_blank"><i class="fas fa-calculator"></i>Calculadora Financeira</a>
-                    <a href="https://pedrocorreialopes.github.io/conversordeunidades" class="button" target="_blank"><i class="fas fa-calculator"></i>Conversor de Unidades</a>
-                    <a href="https://pedrocorreialopes.github.io/geradordepaletadecores" class="button" target="_blank"><i class="fas fa-palette"></i>Gerador de Paleta de Cores</a>
-					<a href="https://pedrocorreialopes.github.io/editor-de-imagens-profissional" class="button" target="_blank"><i class="fas fa-image"></i>Editor de Imagens Profissional</a>
-                    <a href="https://pedrocorreialopes.github.io/galeriasimples" class="button" target="_blank"><i class="fas fa-image"></i>Galeria Simples de Imagens</a>
-					<a href="https://pedrocorreialopes.github.io/album-google" class="button" target="_blank"><i class="fas fa-image"></i>Álbum Google</a>
-                    <a href="https://pedrocorreialopes.github.io/geradorlistachurrasco" class="button" target="_blank"><i class="fas fa-fire"></i>Gerador de Lista de Churrasco</a>
-					<a href="https://pedrocorreialopes.github.io/artigos-perigosos" class="button" target="_blank"><i class="fas fa-fire"></i>Artigos Perigosos Correios</a>
-                    <a href="https://pedrocorreialopes.github.io/listadecompras" class="button" target="_blank"><i class="fas fa-shopping-cart"></i>Gerador de Lista de Compras de Supermercado</a>
-					<a href="https://pedrocorreialopes.github.io/fitness-pro" class="button" target="_blank"><i class="fa-solid fa-weight-hanging"></i>Profissional Fitness</a>
-					<a href="https://pedrocorreialopes.github.io/assistente-whatsapp" class="button" target="_blank"><i class="fa-brands fa-whatsapp"></i>Assistente de Whatsapp</a>
-					<a href="https://pedrocorreialopes.github.io/gerador-de-calendario" class="button" target="_blank"><i class="fas fa-calendar"></i>Gerador de Calendário</a>
-					<a href="https://pedrocorreialopes.github.io/gera-calendario" class="button" target="_blank"><i class="fas fa-calendar"></i>Gerador de Calendário Fácil</a>
-					<a href="https://pedrocorreialopes.github.io/consulta-cep-enderecador" class="button" target="_blank"><i class="fa-solid fa-envelope"></i>Consulta de CEP e Endereçador</a>
-					<a href="https://pedrocorreialopes.github.io/videodownloader" class="button" target="_blank"><i class="fas fa-video-camera"></i>Videodownloader</a>
-					<a href="https://pedrocorreialopes.github.io/gerador-de-folhas" class="button" target="_blank"><i class="fas fa-file-text"></i>Gerador de Folhas</a>
-					<a href="https://pedrocorreialopes.github.io/gerador-de-folhas-personalizadas" class="button" target="_blank"><i class="fas fa-file-text"></i>Gerador de Folhas Personalizadas</a>
-					<a href="https://pedrocorreialopes.github.io/radiofm" class="button" target="_blank"><i class="fas fa-headphones" aria-hidden="true"></i>Rádio FM</a>
-					<a href="https://pedrocorreialopes.github.io/gera-partitura" class="button" target="_blank"><i class="fas fa-music"></i>Gerador de Partituras</a>
-					<a href="https://cifra-song-maker.base44.app" class="button" target="_blank"><i class="fas fa-music"></i>Gerador de Cifras</a>
-					<a href="https://pedrocorreialopes.github.io/tv/" class="button" target="_blank"><i class="fas fa-tv"></i>Simulador de Tv</a>
-					<a href="https://pedrocorreialopes.github.io/tv-retro" class="button" target="_blank"><i class="fas fa-tv"></i>Tv Retrô</a>
-					<a href="https://pedrocorreialopes.github.io/minitv" class="button" target="_blank"><i class="fas fa-tv"></i>Mini TV</a>
-					<a href="https://pedrocorreialopes.github.io/resultados-telesena" class="button" target="_blank"><i class="fas fa-dollar-sign"></i>Resultados da Tele Sena</a>
-					<a href="https://pedrocorreialopes.github.io/vocalswap" class="button" target="_blank"><i class="fas fa-microphone"></i>Troca de Vocais</a>
-					<a href="https://pedrocorreialopes.github.io/editor-audio" class="button" target="_blank"><i class="fas fa-microphone"></i>Editor de Áudio</a>
-					<a href="https://pedrocorreialopes.github.io/analisador-de-imagens" class="button" target="_blank"><i class="fas fa-image"></i>Analisador de Imagens</a>
-					<a href="https://pedrocorreialopes.github.io/salvador-de-cor" class="button" target="_blank"><i class="fas fa-image"></i>Salvador de Cor</a>
-					<a href="https://pedrocorreialopes.github.io/proibicoes-e-restricoes" class="button" target="_blank"><i class="fas fa-envelope"></i>Proibições e Restições de Postagens Correios</a>
-					<a href="https://pedrocorreialopes.github.io/gerador-de-letras" class="button" target="_blank"><i class="fas fa-list"></i>Gerador de Letras</a>
-			    </div>
             </div>
-	    <div class="category">
-                <h3>Projetos Diversos</h3>
+
+            <div class="category">
+                <h3 data-template-id="cat-games" class="canva-text" style="color: rgb(168, 218, 220); font-weight: 600; font-style: normal; font-size: 22px;">
+                    Jogos
+                </h3>
                 <div class="buttons">
-                    <a href="https://pedrocorreialopes.github.io/aventurasnabiblia/" class="button" target="_blank"><i class="fas fa-language"></i>Aventuras na Bíblia</a>
-                    <a href="https://pedrocorreialopes.github.io/exploradorespacial" class="button" target="_blank"><i class="fas fa-globe"></i>Explorador Espacial</a>
-                    <a href="https://pedrocorreialopes.github.io/geradorderecibos" class="button" target="_blank"><i class="fas fa-file-invoice-dollar"></i>Gerador de recibos Glipearte</a>
-                    <a href="https://pedrocorreialopes.github.io/impressao-contrato" class="button" target="_blank"><i class="fas fa-file-invoice-dollar"></i>Impressão de Contratos Glipearte</a>
-                    <a href="https://glipearte-contrato.lovable.app//" class="button" target="_blank"><i class="fas fa-file-invoice-dollar"></i>Gerador Contrato Lovable Glipearte</a>
-					<a href="https://glipearte.github.io/gerador-contrato-pocket-table" class="button" target="_blank"><i class="fas fa-file-invoice-dollar"></i>Gerador Contrato Pocket Table</a>
-				    <a href="https://glipearte-contracts-3aa031b5.base44.app/" class="button" target="_blank"><i class="fas fa-file-invoice-dollar"></i>Gerador de Contrato Base44 Glipearte</a>
-                    <a href="https://glipearte-estoque-facil.lovable.app" class="button" target="_blank"><i class="fas fa-warehouse"></i>Controle de Estoque Glipearte</a>
-                    <a href="https://receitasdopedro.my.canva.site/controle-de-estoque-glipearte" class="button" target="_blank"><i class="fas fa-warehouse"></i>Controle de Estoque Glipearte Simples</a>
-                    <a href="https://pedrocorreialopes.github.io/recibodocontrato" class="button" target="_blank"><i class="fas fa-warehouse"></i>Recibo do Contrato</a>
-                    <a href="https://glipearte-cupom-control.lovable.app" class="button" target="_blank"><i class="fas fa-warehouse"></i>Controle de Cupons Descontos Glipearte</a>
-                    <a href="https://receitasdopedro.my.canva.site/sistema-de-cupons-glipearte" class="button" target="_blank"><i class="fas fa-warehouse"></i>Controle de Cupons Descontos Glipearte2</a>
-                    <a href="https://estoque-inteligente-glipearte-bf2f97de.base44.app" class="button" target="_blank"><i class="fas fa-warehouse"></i>Controle de Estoque Glipearte2</a>
-                    <a href="https://reservadekit.infinityfreeapp.com/" class="button" target="_blank"><i class="fas fa-box-open"></i>Reserva de Kits Glipearte</a>
+                    <a href="https://pedrocorreialopes.github.io/jogodeadivinhacao/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-question-circle"></i>Jogo de Adivinhação</a>
+                    <a href="https://pedrocorreialopes.github.io/pedrapapeltesoura/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-hand-rock"></i>Jogo Pedra Papel Tesoura</a>
+                    <a href="https://pedrocorreialopes.github.io/jogodavelha/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-circle-xmark"></i>Jogo da Velha</a>
+                    <a href="https://pedrocorreialopes.github.io/bingo/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Bingo</a>
+                    <a href="https://pedrocorreialopes.github.io/sorteio/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-comment-dollar"></i>Sorteio</a>
+                    <a href="https://pedrocorreialopes.github.io/formacaodeequipes/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-users"></i>Formação de Equipes</a>
+                    <a href="https://pedrocorreialopes.github.io/jogodaprenda/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-hand-point-right"></i>Jogo da Prenda</a>
+                    <a href="https://pedrocorreialopes.github.io/desafioportugues/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-language"></i>Desafio de Português</a>
+                    <a href="https://pedrocorreialopes.github.io/jogoforca/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-gavel"></i>Jogo da Forca</a>
+                    <a href="https://pedrocorreialopes.github.io/pixeldash/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-square"></i>Pixel Dash</a>
+                    <a href="https://pedrocorreialopes.github.io/xadrez/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-chess"></i>Xadrez</a>
+                    <a href="https://pedrocorreialopes.github.io/sudoku/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-table-cells"></i>Sodoku</a>
+                    <a href="https://pedrocorreialopes.github.io/jogosclassicos/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-table-cells"></i>Jogos Clássicos</a>
+                    <a href="https://pedrocorreialopes.github.io/trilha/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-campground"></i>Jogo de Trilha</a>
+                    <a href="https://pedrocorreialopes.github.io/corridadecarros/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-car"></i>Corrida de Carros</a>
+                    <a href="https://pedrocorreialopes.github.io/cobrinha/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-angles-right"></i>Jogo da Cobrinha</a>
+                    <a href="https://pedrocorreialopes.github.io/penalties/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-futbol"></i>Penalidades</a>
+                    <a href="https://pedrocorreialopes.github.io/jogomemoria/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-brain"></i>Jogo da Memória</a>
+                    <a href="https://pedrocorreialopes.github.io/quiz/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-question"></i>Quiz</a>
+                    <a href="https://pedrocorreialopes.github.io/jogosdevocabulario/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-language"></i>Jogos de Vocabulário</a>
+                    <a href="https://pedrocorreialopes.github.io/jogodosanimais/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-cat"></i>Jogo dos Animais</a>
+                    <a href="https://pedrocorreialopes.github.io/jogadedamas/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-hockey-puck"></i>Jogo de Damas</a>
+                    <a href="https://pedrocorreialopes.github.io/tetris/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-square"></i>Tetris</a>
+                    <a href="https://pedrocorreialopes.github.io/paciencia/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-clone"></i>Paciência</a>
+                    <a href="https://pedrocorreialopes.github.io/quebranumeros/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-clone"></i>Quebra Cabeças de Números</a>
+                    <a href="https://pedrocorreialopes.github.io/desafiodematematica/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-brain"></i>Desafio Matemático</a>
+                    <a href="https://pedrocorreialopes.github.io/desafiodeportugueses/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-brain"></i>Desafio de Português</a>
+                    <a href="https://pedrocorreialopes.github.io/viracartas/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-clone"></i>Vira Cartas</a>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3 data-template-id="cat-utilities" class="canva-text" style="color: rgb(168, 218, 220); font-weight: 600; font-style: normal; font-size: 22px;">
+                    Utilitários
+                </h3>
+                <div class="buttons">
+                    <a href="https://pedrocorreialopes.github.io/calendario/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-calendar"></i>Calendário</a>
+                    <a href="https://pedrocorreialopes.github.io/listadeicones/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-list"></i>Lista de Ícones</a>
+                    <a href="https://pedrocorreialopes.github.io/icones-font-awesome" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-list" aria-hidden="true"></i>Lista de Ícones Font Awesome</a>
+                    <a href="https://pedrocorreialopes.github.io/geradordelinks/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-list"></i>Gerador de Links</a>
+                    <a href="https://pedrocorreialopes.github.io/calculodv" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-calculator"></i>Cálculo DV</a>
+                    <a href="https://wanderlust-ai-0ff2a0a6.base44.app/Home" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Gerador de Roteiro de Viagem</a>
+                    <a href="https://viaje-ai-36c5fc7f.base44.app/Home" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Gerador de Roteiro de Viagem2</a>
+                    <a href="https://guia-global-correios-b0459b6e.base44.app/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-earth"></i>Restrições Países</a>
+                    <a href="https://irkcejcw.gensparkspace.com/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-earth"></i>Consulta de Código NCM</a>
+                    <a href="https://receitasdopedro.my.canva.site/contador-regressivo-para-eventos" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-hourglass"></i>Contador Regressivo para Eventos (Canva)</a>
+                    <a href="https://pedrocorreialopes.github.io/digicpf" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-id-card"></i>DigiCPF</a>
+                    <a href="https://pedrocorreialopes.github.io/ascii/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-list"></i>Tabela ASC-II</a>
+                    <a href="https://pedrocorreialopes.github.io/calculadoracientifica" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-calculator"></i>Calculadora Científica</a>
+                    <a href="https://pedrocorreialopes.github.io/calculadora-financeira" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-calculator"></i>Calculadora Financeira</a>
+                    <a href="https://pedrocorreialopes.github.io/conversordeunidades" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-calculator"></i>Conversor de Unidades</a>
+                    <a href="https://pedrocorreialopes.github.io/geradordepaletadecores" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-palette"></i>Gerador de Paleta de Cores</a>
+                    <a href="https://pedrocorreialopes.github.io/editor-de-imagens-profissional" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-image"></i>Editor de Imagens Profissional</a>
+                    <a href="https://pedrocorreialopes.github.io/galeriasimples" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-image"></i>Galeria Simples de Imagens</a>
+                    <a href="https://pedrocorreialopes.github.io/album-google" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-image"></i>Álbum Google</a>
+                    <a href="https://pedrocorreialopes.github.io/geradorlistachurrasco" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-fire"></i>Gerador de Lista de Churrasco</a>
+                    <a href="https://pedrocorreialopes.github.io/artigos-perigosos" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-fire"></i>Artigos Perigosos Correios</a>
+                    <a href="https://pedrocorreialopes.github.io/listadecompras" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-shopping-cart"></i>Gerador de Lista de Compras de Supermercado</a>
+                    <a href="https://pedrocorreialopes.github.io/fitness-pro" class="button" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-weight-hanging"></i>Profissional Fitness</a>
+                    <a href="https://pedrocorreialopes.github.io/assistente-whatsapp" class="button" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i>Assistente de Whatsapp</a>
+                    <a href="https://pedrocorreialopes.github.io/gerador-de-calendario" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-calendar"></i>Gerador de Calendário</a>
+                    <a href="https://pedrocorreialopes.github.io/gera-calendario" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-calendar"></i>Gerador de Calendário Fácil</a>
+                    <a href="https://pedrocorreialopes.github.io/consulta-cep-enderecador" class="button" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i>Consulta de CEP e Endereçador</a>
+                    <a href="https://pedrocorreialopes.github.io/videodownloader" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-video-camera"></i>Videodownloader</a>
+                    <a href="https://pedrocorreialopes.github.io/gerador-de-folhas" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-text"></i>Gerador de Folhas</a>
+                    <a href="https://pedrocorreialopes.github.io/gerador-de-folhas-personalizadas" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-text"></i>Gerador de Folhas Personalizadas</a>
+                    <a href="https://pedrocorreialopes.github.io/radiofm" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-headphones" aria-hidden="true"></i>Rádio FM</a>
+                    <a href="https://pedrocorreialopes.github.io/gera-partitura" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-music"></i>Gerador de Partituras</a>
+                    <a href="https://cifra-song-maker.base44.app" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-music"></i>Gerador de Cifras</a>
+                    <a href="https://pedrocorreialopes.github.io/tv/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-tv"></i>Simulador de Tv</a>
+                    <a href="https://pedrocorreialopes.github.io/tv-retro" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-tv"></i>Tv Retrô</a>
+                    <a href="https://pedrocorreialopes.github.io/minitv" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-tv"></i>Mini TV</a>
+                    <a href="https://pedrocorreialopes.github.io/resultados-telesena" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-dollar-sign"></i>Resultados da Tele Sena</a>
+                    <a href="https://pedrocorreialopes.github.io/vocalswap" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-microphone"></i>Troca de Vocais</a>
+                    <a href="https://pedrocorreialopes.github.io/editor-audio" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-microphone"></i>Editor de Áudio</a>
+                    <a href="https://pedrocorreialopes.github.io/analisador-de-imagens" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-image"></i>Analisador de Imagens</a>
+                    <a href="https://pedrocorreialopes.github.io/salvador-de-cor" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-image"></i>Salvador de Cor</a>
+                    <a href="https://pedrocorreialopes.github.io/proibicoes-e-restricoes" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i>Proibições e Restições de Postagens Correios</a>
+                    <a href="https://pedrocorreialopes.github.io/gerador-de-letras" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-list"></i>Gerador de Letras</a>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3 data-template-id="cat-diverse" class="canva-text" style="color: rgb(168, 218, 220); font-weight: 600; font-style: normal; font-size: 22px;">
+                    Projetos Diversos
+                </h3>
+                <div class="buttons">
+                    <a href="https://pedrocorreialopes.github.io/aventurasnabiblia/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-language"></i>Aventuras na Bíblia</a>
+                    <a href="https://pedrocorreialopes.github.io/exploradorespacial" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Explorador Espacial</a>
+                    <a href="https://pedrocorreialopes.github.io/geradorderecibos" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-invoice-dollar"></i>Gerador de recibos Glipearte</a>
+                    <a href="https://pedrocorreialopes.github.io/impressao-contrato" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-invoice-dollar"></i>Impressão de Contratos Glipearte</a>
+                    <a href="https://glipearte-contrato.lovable.app//" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-invoice-dollar"></i>Gerador Contrato Lovable Glipearte</a>
+                    <a href="https://glipearte.github.io/gerador-contrato-pocket-table" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-invoice-dollar"></i>Gerador Contrato Pocket Table</a>
+                    <a href="https://glipearte-contracts-3aa031b5.base44.app/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-invoice-dollar"></i>Gerador de Contrato Base44 Glipearte</a>
+                    <a href="https://glipearte-estoque-facil.lovable.app" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-warehouse"></i>Controle de Estoque Glipearte</a>
+                    <a href="https://receitasdopedro.my.canva.site/controle-de-estoque-glipearte" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-warehouse"></i>Controle de Estoque Glipearte Simples</a>
+                    <a href="https://pedrocorreialopes.github.io/recibodocontrato" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-warehouse"></i>Recibo do Contrato</a>
+                    <a href="https://glipearte-cupom-control.lovable.app" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-warehouse"></i>Controle de Cupons Descontos Glipearte</a>
+                    <a href="https://receitasdopedro.my.canva.site/sistema-de-cupons-glipearte" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-warehouse"></i>Controle de Cupons Descontos Glipearte2</a>
+                    <a href="https://estoque-inteligente-glipearte-bf2f97de.base44.app" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-warehouse"></i>Controle de Estoque Glipearte2</a>
+                    <a href="https://reservadekit.infinityfreeapp.com/" class="button" target="_blank" rel="noopener noreferrer"><i class="fas fa-box-open"></i>Reserva de Kits Glipearte</a>
                 </div>
             </div>
         </div>
@@ -182,120 +220,41 @@
 
     <section id="links">
         <div class="container">
-            <h2>Minhas Redes Sociais</h2>
+            <h2 data-template-id="social-heading" class="canva-text" style="color: rgb(233, 69, 96); font-weight: 700; font-style: normal; font-size: 32px;">
+                Minhas Redes Sociais
+            </h2>
             <div class="buttons">
-                <a href="https://wa.me/5585989002536" class="button2" target="_blank"><i class="fab fa-whatsapp fa-2xl"></i></a>
-                <a href="https://instagram.com/correialopesfilho" class="button2" target="_blank"><i class="fab fa-instagram fa-2xl"></i></a>
-				<a href="https://www.linkedin.com/in/pedro-correia-lopes-filho-0654ba33/" class="button2" target="_blank"><i class="fab fa-linkedin fa-2xl"></i></a>
-                <a href="https://github.com/pedrocorreialopes" class="button2" target="_blank"><i class="fab fa-github fa-2xl"></i></a>
-	            <a href="https://facebook.com/pedro.correialopesfilho" class="button2" target="_blank"><i class="fab fa-facebook fa-2xl"></i></a>
+                <a href="https://wa.me/5585989002536" class="button2" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp fa-2xl"></i></a>
+                <a href="https://instagram.com/correialopesfilho" class="button2" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/pedro-correia-lopes-filho-0654ba33/" class="button2" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2xl"></i></a>
+                <a href="https://github.com/pedrocorreialopes" class="button2" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-2xl"></i></a>
+                <a href="https://facebook.com/pedro.correialopesfilho" class="button2" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook fa-2xl"></i></a>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Pedro Correia Lopes. Todos os direitos reservados.</p>
+            <p data-template-id="footer-text" class="canva-text" style="color: rgb(136, 136, 136); font-weight: 400; font-style: normal; font-size: 14px;">
+                © 2025 Pedro Correia Lopes. Todos os direitos reservados.
+            </p>
         </div>
     </footer>
-<script>
-    const sections = document.querySelectorAll("section");
- 
-    function revealOnScroll() {
-        sections.forEach(section => {
-            const sectionTop = section.getBoundingClientRect().top;
-            if (sectionTop < window.innerHeight - 100) {
-                section.classList.add("show");
-            }
-        });
-    }
 
-    window.addEventListener("scroll", revealOnScroll);
-    revealOnScroll();
-</script>
+    <script>
+        const sections = document.querySelectorAll("section");
 
+        function revealOnScroll() {
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                if (sectionTop < window.innerHeight - 100) {
+                    section.classList.add("show");
+                }
+            });
+        }
+
+        window.addEventListener("scroll", revealOnScroll);
+        revealOnScroll();
+    </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
